@@ -97,12 +97,12 @@ For example, consider this test:
 ```js
 // myTest.test.js
 
-test('test 1: a passing test', () => {
-  // a passing test
+test('true is not false', () => {
+  expect(true).not.toBe(false);
 });
 
-test('test 2: a failing test', () => {
-  // a failing test
+test('addition is hard', () => {
+  expect(2 + 2).toBe(5);
 });
 ```
 
@@ -110,8 +110,8 @@ Running `npm test` for the **myTest.test.js** file will produce the following ou
 
 ```sh
 FAIL  myTest.test.js
-✓ test 1: a passing test
-✕ test 2: a failing test
+✓ true is not false
+✕ addition is hard
 ```
 
 Sources:
