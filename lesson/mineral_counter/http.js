@@ -15,11 +15,20 @@ const httpRequest = async (food) => {
             }
         },
      )
-    if (result.status) {
-        console.log(`REST API call with status: ${result.status}`)
-    } 
-
+     console.log(`REST API call with status: ${result.status}`)
+    
+    if (result.data.foods[0].food_name) {
+        const vitaminPack = {
+            potassium: result.data.foods[0].nf_potassium,
+            iron: result.data.foods[0].full_nutrients[20].value,
+            zinc: result.data.foods[0].full_nutrients[25].value,
+        }
+        console.log(vitaminPack);
+        return vitaminPack
+    }
+    
     return result
+
 };
 
 exports.httpRequest = httpRequest
