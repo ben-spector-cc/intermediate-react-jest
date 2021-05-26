@@ -1,9 +1,10 @@
-const axios = require('axios')
+const axios = require('./axios-rates')
+
 
 const httpRequest = async () => {
+    
     const rates = await axios.get('https://api.ratesapi.io/api/latest')
-    rates.status && console.log(`REST API status: ${rates.status}`)
-    return rates.data
+    return rates
 }
 
 exports.httpRequest = httpRequest

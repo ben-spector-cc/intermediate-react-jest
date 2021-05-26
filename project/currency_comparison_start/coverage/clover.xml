@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1622061042152" clover="3.2.0">
+  <project timestamp="1622061042152" name="All files">
+    <metrics statements="33" coveredstatements="32" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="7" elements="43" coveredelements="41" complexity="0" loc="33" ncloc="33" packages="2" files="4" classes="4"/>
+    <package name="currency_comparison_start">
+      <metrics statements="25" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="currency_comparison.js" path="/Volumes/Akils_Drive/Akils harddrive/Programming/Content_Contributor/Jest/intermediate-react-jest/project/currency_comparison_start/currency_comparison.js">
+        <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+      <file name="http.js" path="/Volumes/Akils_Drive/Akils harddrive/Programming/Content_Contributor/Jest/intermediate-react-jest/project/currency_comparison_start/http.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="currency_comparison_start.mocks">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="handlers.js" path="/Volumes/Akils_Drive/Akils harddrive/Programming/Content_Contributor/Jest/intermediate-react-jest/project/currency_comparison_start/mocks/handlers.js">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="server.js" path="/Volumes/Akils_Drive/Akils harddrive/Programming/Content_Contributor/Jest/intermediate-react-jest/project/currency_comparison_start/mocks/server.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
