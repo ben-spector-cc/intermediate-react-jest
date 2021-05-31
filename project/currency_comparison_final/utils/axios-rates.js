@@ -2,7 +2,9 @@ const axios = require("axios");
 
 module.exports = {
     get: () => {
-        const res = {
+        const res = new Promise((resolve, reject) => {
+            setTimeout(() => {
+             resolve({
             status: 200,
             data: {
                 "base": "EUR",
@@ -13,10 +15,10 @@ module.exports = {
                 },
                 "date": new Date().toISOString()
             }
-        }
+        })
+         }, 3000) 
+        })
         return res
     }
       
     }
-
-
