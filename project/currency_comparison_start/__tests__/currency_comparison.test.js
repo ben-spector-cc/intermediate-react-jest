@@ -42,6 +42,7 @@ test("respond with different salaries based on currency", () => {
 
 test("Receives current currency exchange data", ()=>{
     //arrange
+    const expectedValue = 200
     //act
     const actualValue = testSalary.fetchCurrentExchange() 
     //assertions
@@ -52,15 +53,13 @@ test("Receives current currency exchange data", ()=>{
 
 // test("Receives current currency exchange data", async ()=>{
 //     //arrange
-//     const response = {
+//     const mockResponse = {
 //             status : "Mock",
-//             data: {
-//                 "base": "EUR",
-//                 "rates": {
-//                 "MXN": 24.1677,
-//                 "CAD": 1.472,
-//                 "USD": 1.2143
-//                 },
+//            data: {
+//              "base": "USD",
+//              "rates": {
+//                  "CCD": 50,
+//              },
 //                 "date": "2021-05-17"
 //             }
 //     }
